@@ -1,0 +1,4 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/ArtefactObserveStyle.uss?fileID=7433441132597879392&amp;guid=0f6de3e08e9f6bf49b32620ab344778b&amp;type=3#ArtefactObserveStyle"/>
+    <ui:Label text="Label" name="ArtefactDataFactText" class="artefactData__factText artefactData__factText_hidden" style="width: 95%; margin-bottom: 20px;"/>
+</ui:UXML>

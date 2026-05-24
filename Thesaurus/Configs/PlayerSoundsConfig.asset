@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59519d549471a5e4686237f6eec77322, type: 3}
+  m_Name: PlayerSoundsConfig
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerFootstepSoundsConfig
+  _defaultSounds:
+  - {fileID: 8300000, guid: ecd33ce98c2f3324c8e9873ccfa92590, type: 3}
+  - {fileID: 8300000, guid: ac8e002a85d8a944cbf2ac54ac384097, type: 3}
+  - {fileID: 8300000, guid: 90ec8cb003080dd46b5bcf7a6caf15c9, type: 3}
+  - {fileID: 8300000, guid: d650c4dcaf1a8cb4b8c99cf8a14170b1, type: 3}
+  - {fileID: 8300000, guid: 36062d4b50f9afa4ba22afd38362b0f1, type: 3}
+  - {fileID: 8300000, guid: 09976816dc5fd654786e29eb324e7e66, type: 3}
+  - {fileID: 8300000, guid: 874645181d56a3d4c9fc56cb61377d7c, type: 3}
+  - {fileID: 8300000, guid: e5cb839e2fdda0d4ebf3496187c6d4bc, type: 3}
+  - {fileID: 8300000, guid: e8a20450e83cef64c9be9453ad06c583, type: 3}
+  - {fileID: 8300000, guid: abee756e08f20be48aa6e60f0c997563, type: 3}
+  FootstepSounds:
+  - SurfaceName: Grass
+    Clips:
+    - {fileID: 8300000, guid: 198bf54b0999e924cb8a4da203b024ba, type: 3}
+    - {fileID: 8300000, guid: 1f2c11aa9b46e4c4d8eb9c54eb641251, type: 3}
+    - {fileID: 8300000, guid: 2c3e78684037df54297a5b3803f7082b, type: 3}
+    - {fileID: 8300000, guid: 70fd64b5ce1a9e64caf4609c6b4aedd6, type: 3}
+    - {fileID: 8300000, guid: d214d90e0d4eef4428555c2931b09ea4, type: 3}
+    - {fileID: 8300000, guid: 5f42fa31ef51d7245bce54cccb93b9e7, type: 3}
+    - {fileID: 8300000, guid: 713059b445f25a74ab1818b491dff759, type: 3}
+    - {fileID: 8300000, guid: 409d855c334ad3b429a86c5974580cf2, type: 3}
+    - {fileID: 8300000, guid: ca0c11600b260824bae485e64c4ff90d, type: 3}
+    - {fileID: 8300000, guid: ca5e22d2c2ca92c48bb4451199cc5399, type: 3}
+  - SurfaceName: Metal
+    Clips:
+    - {fileID: 8300000, guid: 59d2b509f4d074d4591137be4d6c6417, type: 3}
+    - {fileID: 8300000, guid: 30a2b16536fc1e1468d7e1ab8e824704, type: 3}
+    - {fileID: 8300000, guid: b1428268b10e4714a916962353b84a48, type: 3}
+    - {fileID: 8300000, guid: dafb9ee22c9fc6d4d9be6a88b304734d, type: 3}
+    - {fileID: 8300000, guid: 593eee1ffc41bf845a49411fb9ed3067, type: 3}
+    - {fileID: 8300000, guid: 63bbf59e2271db34f972f22bae6e5b39, type: 3}
+    - {fileID: 8300000, guid: 6de93fea5c3c466419dbe130ac03119f, type: 3}
+    - {fileID: 8300000, guid: 0d38d697dbae23345aecb297599520f4, type: 3}
+    - {fileID: 8300000, guid: b338b6f50686cd54396a7e55fe96490f, type: 3}
+    - {fileID: 8300000, guid: e7409514d0e701245b65f032cb5836cd, type: 3}
+  - SurfaceName: Rocks
+    Clips:
+    - {fileID: 8300000, guid: 4ef1d5fc9d92dec44a46e8056cca2a0d, type: 3}
+    - {fileID: 8300000, guid: b915cfd00b57c6147b0ab7d53e776851, type: 3}
+    - {fileID: 8300000, guid: 9ab74323796935f439dd9412e142c7c5, type: 3}
+    - {fileID: 8300000, guid: 97d0dc20b85e10944bba7d04275ba37f, type: 3}
+    - {fileID: 8300000, guid: 72a8104e7d259524da8313da22f8761d, type: 3}
+    - {fileID: 8300000, guid: ce40794376ad5ee44bef502cb718817e, type: 3}
+    - {fileID: 8300000, guid: 851ba408fb1f29c45ae36803ccf320f0, type: 3}
+    - {fileID: 8300000, guid: 6d3df5a64cd59f0498dd4d080af94462, type: 3}
+    - {fileID: 8300000, guid: 43f69a7ff8bdd744493147c3e1c252db, type: 3}
+    - {fileID: 8300000, guid: 3f20b8ffd25abad45bc531c5bb6bdced, type: 3}
+  SlidingSound: {fileID: 8300000, guid: 9691e68dbc274024da1980ad066497f4, type: 3}

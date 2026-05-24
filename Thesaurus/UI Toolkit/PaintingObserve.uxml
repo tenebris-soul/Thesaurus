@@ -1,0 +1,19 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="PaintingObserveFactContainer" src="project://database/Assets/UI%20Toolkit/Prototypes/Painting/PaintingObserveFactContainer.uxml?fileID=9197481963319205126&amp;guid=9001e5de800be5d439b8a7c73a2ead98&amp;type=3#PaintingObserveFactContainer"/>
+    <ui:Template name="PaintingObserveInterestPoint" src="project://database/Assets/UI%20Toolkit/Prototypes/Painting/PaintingObserveInterestPoint.uxml?fileID=9197481963319205126&amp;guid=42c18333b36bb1b469ea809251ef9f9f&amp;type=3#PaintingObserveInterestPoint"/>
+    <Style src="project://database/Assets/UI%20Toolkit/PaintingObserveStyle.uss?fileID=7433441132597879392&amp;guid=a8192cd42fa462347ab78c9689a195bc&amp;type=3#PaintingObserveStyle"/>
+    <ui:VisualElement name="Container" class="paintingObserve__container" style="flex-grow: 1; padding-top: 40px; padding-right: 40px; padding-bottom: 40px; padding-left: 40px; align-items: center;">
+        <ui:VisualElement name="PaintingFactsAndPointsContainer" style="position: absolute; width: 96%; height: 93%;">
+            <ui:Instance template="PaintingObserveInterestPoint" name="PaintingObserveInterestPoint" class="paintingObserve__interestPointContainer" style="position: absolute; transition-duration: 0.3s, 0s;"/>
+            <ui:Instance template="PaintingObserveFactContainer" name="PaintingObserveFactContainer" class="paintingObserve__factTemplate"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="PaintingCloseButtonWrapper" style="flex-grow: 0; flex-wrap: nowrap; align-items: center; width: 100px; align-self: flex-start;">
+            <ui:Button text="&#10;" name="PaintingObserveCloseButton" class="paintingObserve__closeButton paintingObserve__closeButton_disabled">
+                <ui:Image source="project://database/Assets/UI%20Toolkit/SVG/CloseButton/close_button.svg?fileID=7388822144124034973&amp;guid=b71b9c78224021248aa693db83e37ebf&amp;type=3#close_button" style="width: auto;"/>
+            </ui:Button>
+        </ui:VisualElement>
+        <ui:VisualElement name="PaintingObserveNameContainer" class="paintingObserve__nameContainer paintingObserve__nameContainer_hidden" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UI%20Toolkit/Panels/panel_1.png?fileID=21300000&amp;guid=8efd84f19a193c04c8d53cd67a7b67db&amp;type=3#panel_1&quot;); position: absolute;">
+            <ui:Label text="Label" name="PaintingObserveNameText" class="paintingObserve__nameLabel" style="-unity-font-definition: url(&quot;project://database/Assets/UI%20Toolkit/Fonts/discovery%20font.otf?fileID=12800000&amp;guid=0413688152b988a4281e95d2e49cb150&amp;type=3#discovery font&quot;); color: rgb(250, 250, 250); -unity-text-align: upper-center; font-size: 48px;"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

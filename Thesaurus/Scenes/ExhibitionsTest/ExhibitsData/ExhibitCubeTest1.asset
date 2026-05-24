@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dafb9693204af349bc73e361faf30f7, type: 3}
+  m_Name: ExhibitCubeTest1
+  m_EditorClassIdentifier: Assembly-CSharp::ExhibitData
+  Name: A cube
+  Description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec
+    elementum sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+    posuere cubilia curae; Suspendisse ac turpis nunc. Duis at odio pellentesque,
+    tristique mauris et, placerat dui. Donec id elementum sem. Ut efficitur efficitur
+    odio quis dignissim. Nulla facilisi. Sed hendrerit, risus eget malesuada ornare,
+    purus orci tempus arcu, sit amet pharetra orci risus in enim. Nam metus ex, faucibus
+    quis mollis eu, aliquam iaculis lorem. Cras eget pretium libero. Phasellus imperdiet
+    massa fermentum, tincidunt magna in, rutrum ex. Ut non dolor ut leo tempor pellentesque.
+    Ut blandit vulputate dui quis gravida. Duis lobortis sagittis sollicitudin. Phasellus
+    molestie, tortor et malesuada sollicitudin, elit tellus vulputate massa, ac posuere
+    arcu sem id sapien. Donec non lorem tempor, eleifend nulla eu, congue tortor.
+
+    
+
+    Quisque
+    pellentesque dui sed sapien tristique porta. Morbi bibendum metus tortor, ac
+    volutpat nibh aliquet ac. Duis dui nulla, dictum id elit nec, mollis lacinia
+    justo. Vestibulum ultricies, libero porttitor elementum tincidunt, nibh sem molestie
+    sapien, vel fermentum ex mauris tincidunt justo. Pellentesque pharetra volutpat
+    blandit. Proin euismod tellus id metus fringilla tempor. Ut tristique congue
+    enim, sed laoreet ante tempor non. Maecenas laoreet rhoncus felis, sagittis eleifend
+    velit laoreet non. Curabitur placerat scelerisque finibus. Mauris elementum ipsum
+    sit amet tincidunt efficitur. Quisque diam nibh, faucibus quis pellentesque a,
+    ornare in enim. Nam non eros vitae massa semper iaculis non nec nibh. Vivamus
+    aliquam venenatis purus, ac laoreet lectus efficitur ac. Phasellus ac vehicula
+    neque.
+
+    
+
+    Integer tristique ipsum purus, a pellentesque est tempus
+    ac. Vivamus gravida eu erat posuere bibendum. Nunc eu est tellus. Duis ex felis,
+    tristique eu risus vel, sagittis convallis orci. Donec libero magna, vehicula
+    a molestie vel, semper at nisl. Phasellus pellentesque ornare mi, id efficitur
+    arcu rhoncus quis. Aenean congue est quis orci ornare rutrum in et sem. Sed scelerisque
+    semper vestibulum. Donec condimentum turpis vel nunc pellentesque, ac feugiat
+    libero posuere. Nunc sodales arcu eget eleifend vulputate.
+
+    
+
+    Curabitur
+    non dapibus eros, in semper sapien. Nam lobortis tincidunt gravida. Nam aliquam
+    maximus cursus. Maecenas nulla metus, elementum a consequat vel, elementum a
+    ante. Quisque ipsum est, tristique in elit in, molestie eleifend mi. Nunc vestibulum
+    a tellus vel aliquet. Vestibulum ante ipsum primis in faucibus orci luctus et
+    ultrices posuere cubilia curae; In eget sem molestie, ultrices dui eget, vehicula
+    eros. Cras porta odio et risus maximus mollis. Suspendisse rhoncus ac risus ut
+    egestas. Mauris imperdiet, libero at sollicitudin tincidunt, lorem nisi bibendum
+    sem, ut dignissim arcu felis eget mauris. Aliquam mattis neque quis eleifend
+    blandit. Donec vestibulum euismod magna, vitae ornare sapien semper suscipit.
+    Mauris sit amet dapibus nisi. Nam pretium turpis bibendum tellus iaculis venenatis.
+
+    
+
+    Orci
+    varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+    mus. Sed tempor lorem vel viverra vestibulum. Vivamus ultricies auctor enim,
+    ut placerat eros vestibulum at. Praesent orci dui, euismod at interdum ac, dictum
+    a sapien. Duis in nisl tempus, fermentum neque a, dignissim tellus. Quisque at
+    nisl finibus, aliquet neque vitae, sollicitudin arcu. Aliquam in mollis justo,
+    in tempus nisl. Phasellus pulvinar felis gravida condimentum sollicitudin.'

@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/HUDViewStyle.uss?fileID=7433441132597879392&amp;guid=50a5760a950ef0d4c9c236b7d37372d3&amp;type=3#HUDViewStyle"/>
+    <ui:VisualElement name="Container" style="flex-grow: 1; padding-top: 40px; padding-right: 40px; padding-bottom: 40px; padding-left: 40px;">
+        <ui:VisualElement name="CrosshairContainer" class="crosshair__container" style="flex-grow: 0; -unity-background-scale-mode: stretch-to-fill; background-size: 100% 100%; flex-direction: column; width: 85px; height: 85px; top: 50%; left: 50%; translate: -50% -50%; align-items: center; justify-content: center; transition-duration: 0.45s;">
+            <ui:Image name="CrosshairGradient" source="project://database/Assets/UI%20Toolkit/SVG/Crosshair/Ellipse%203.svg?fileID=7388822144124034973&amp;guid=242e39e1a1ebc5f488d983c21a50b903&amp;type=3#Ellipse 3" class="crosshair__gradient" style="transition-duration: 0.75s; transform-origin: center; position: absolute;"/>
+            <ui:Image source="project://database/Assets/UI%20Toolkit/SVG/Crosshair/Ellipse%202_nonScalingStroke.svg?fileID=7388822144124034973&amp;guid=93f24db6c19f9aa4aa2ea0926994ba71&amp;type=3#Ellipse 2_nonScalingStroke" name="Crosshair" class="crosshair" style="transform-origin: center; align-items: auto; justify-content: flex-start; align-self: auto; align-content: auto; position: absolute; top: auto; left: auto; translate: 0% 0%;"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="HintContainer" class="hintContainer" style="flex-grow: 1; position: absolute; width: 35%; align-self: center;">
+            <ui:Label text="Тест" name="Hint" class="hint"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

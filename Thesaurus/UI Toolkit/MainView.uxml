@@ -1,0 +1,18 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="ArtefactObserve" src="project://database/Assets/UI%20Toolkit/ArtefactObserve.uxml?fileID=9197481963319205126&amp;guid=34420641203d28d4f901c1f72b840a9b&amp;type=3#ArtefactObserve"/>
+    <ui:Template name="ExhibitObserve" src="project://database/Assets/UI%20Toolkit/ExhibitObserve.uxml?fileID=9197481963319205126&amp;guid=2813f41e6d1bb674685c3e8e93cb1a72&amp;type=3#ExhibitObserve"/>
+    <ui:Template name="HUDView" src="project://database/Assets/UI%20Toolkit/HUDView.uxml?fileID=9197481963319205126&amp;guid=89262243d4ab7604bacf9ba357b0d8f7&amp;type=3#HUDView"/>
+    <ui:Template name="PaintingObserve" src="project://database/Assets/UI%20Toolkit/PaintingObserve.uxml?fileID=9197481963319205126&amp;guid=1b73727269c51bc4cadd4f04fb95edf8&amp;type=3#PaintingObserve"/>
+    <ui:VisualElement name="HUDContainer" style="flex-grow: 1; position: absolute; width: 100%; height: 100%;">
+        <ui:Instance template="HUDView" name="HUD" style="height: 100%;"/>
+    </ui:VisualElement>
+    <ui:VisualElement name="ExhibitContainer" style="flex-grow: 1; width: 100%; height: 100%; position: absolute;">
+        <ui:Instance template="ExhibitObserve" name="Exhibit" style="width: 100%; height: 100%;"/>
+    </ui:VisualElement>
+    <ui:VisualElement name="ArtefactContainer" style="flex-grow: 1; width: 100%; height: 100%; position: absolute;">
+        <ui:Instance template="ArtefactObserve" name="Artefact" style="width: 100%; height: 100%;"/>
+    </ui:VisualElement>
+    <ui:VisualElement name="PaintingContainer" style="flex-grow: 1;">
+        <ui:Instance template="PaintingObserve" name="Painting" style="width: 100%; height: 100%;"/>
+    </ui:VisualElement>
+</ui:UXML>

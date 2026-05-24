@@ -1,0 +1,27 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="ArtefactDataDescriptionText" src="project://database/Assets/UI%20Toolkit/Prototypes/Artefact/ArtefactDataFactText.uxml?fileID=9197481963319205126&amp;guid=863ee696f46761a4b9a220407dad35f1&amp;type=3#ArtefactDataFactText"/>
+    <Style src="project://database/Assets/UI%20Toolkit/ArtefactObserveStyle.uss?fileID=7433441132597879392&amp;guid=0f6de3e08e9f6bf49b32620ab344778b&amp;type=3#ArtefactObserveStyle"/>
+    <ui:VisualElement name="Container" style="flex-grow: 1; padding-top: 40px; padding-right: 40px; padding-bottom: 40px; padding-left: 40px; flex-direction: row; flex-wrap: nowrap; justify-content: space-between;">
+        <ui:VisualElement name="ArtefactDataCloseButtonWrapper" style="flex-grow: 0; flex-wrap: nowrap; align-items: center; width: 100px;">
+            <ui:Button text="&#10;" name="ArtefactDataCloseButton" class="artefactData__closeButton artefactData__closeButton_disabled">
+                <ui:Image source="project://database/Assets/UI%20Toolkit/SVG/CloseButton/close_button.svg?fileID=7388822144124034973&amp;guid=b71b9c78224021248aa693db83e37ebf&amp;type=3#close_button" style="width: auto;"/>
+            </ui:Button>
+        </ui:VisualElement>
+        <ui:VisualElement name="ArtefactDataWrapper" class="artefactData__wrapper artefactData__wrapper_disabled">
+            <ui:VisualElement name="ArtefactDataNamePanel" class="artefactData__nameWrapper" style="background-image: url(&quot;project://database/Assets/UI%20Toolkit/Panels/panel_1.png?fileID=21300000&amp;guid=8efd84f19a193c04c8d53cd67a7b67db&amp;type=3#panel_1&quot;); -unity-background-scale-mode: stretch-to-fill; background-size: 100% 27%; align-self: auto; justify-content: center; align-items: center; height: 12%;">
+                <ui:Label text="Label" name="ArtefactDataNameText" class="artefactData__name" style="width: auto;"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="ArtefactDataDescriptionPanel" class="artefactData__descriptWrapper" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/UI%20Toolkit/Panels/panel_1.png?fileID=21300000&amp;guid=8efd84f19a193c04c8d53cd67a7b67db&amp;type=3#panel_1&quot;); height: 50%; margin-bottom: 35px;">
+                <ui:ScrollView name="ArtefactDataDescriptionScrollView" class="artefactData__scroll">
+                    <ui:Label text="Label" name="ArtefactDataDescriptionText" class="exhibitData__descript artefactData__descript" style="width: 95%;"/>
+                </ui:ScrollView>
+            </ui:VisualElement>
+            <ui:VisualElement name="ArtefactDataFactsPanel" class="exhibitData__descriptWrapper artefactData__factsWrapper" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/UI%20Toolkit/Panels/panel_1.png?fileID=21300000&amp;guid=8efd84f19a193c04c8d53cd67a7b67db&amp;type=3#panel_1&quot;); height: 31%;">
+                <ui:Label text="Label" name="ArtefactDataFactsLabel" class="artefactData__factsLabel" style="-unity-font-definition: url(&quot;project://database/Assets/UI%20Toolkit/Fonts/discovery%20font.otf?fileID=12800000&amp;guid=0413688152b988a4281e95d2e49cb150&amp;type=3#discovery font&quot;); font-size: 28px; color: rgb(130, 130, 130);"/>
+                <ui:ScrollView name="ArtefactDataFactsScrollView" class="artefactData__factsScroll artefactData__scroll">
+                    <ui:Instance template="ArtefactDataDescriptionText" name="ArtefactDataFactText"/>
+                </ui:ScrollView>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

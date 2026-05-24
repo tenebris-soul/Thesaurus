@@ -1,0 +1,20 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/ExhibitObserveStyle.uss?fileID=7433441132597879392&amp;guid=5f314b011ec3c4d479f711398b0600da&amp;type=3#ExhibitObserveStyle"/>
+    <ui:VisualElement name="Container" style="flex-grow: 1; padding-top: 40px; padding-right: 40px; padding-bottom: 40px; padding-left: 40px; flex-direction: row; flex-wrap: nowrap; justify-content: space-between;">
+        <ui:VisualElement name="ExhibitDataCloseButtonWrapper" style="flex-grow: 0; flex-wrap: nowrap; align-items: center; width: 100px;">
+            <ui:Button text="&#10;" name="ExhibitDataCloseButton" class="exhibitData__closeButton exhibitData__closeButton_disabled">
+                <ui:Image source="project://database/Assets/UI%20Toolkit/SVG/CloseButton/close_button.svg?fileID=7388822144124034973&amp;guid=b71b9c78224021248aa693db83e37ebf&amp;type=3#close_button" style="width: auto;"/>
+            </ui:Button>
+        </ui:VisualElement>
+        <ui:VisualElement name="ExhibitDataWrapper" class="exhibitData__wrapper exhibitData__wrapper_disabled">
+            <ui:VisualElement name="ExhibitDataNamePanel" class="exhibitData__nameWrapper" style="background-image: url(&quot;project://database/Assets/UI%20Toolkit/Panels/panel_1.png?fileID=21300000&amp;guid=8efd84f19a193c04c8d53cd67a7b67db&amp;type=3#panel_1&quot;); -unity-background-scale-mode: stretch-to-fill; background-size: 100% 27%; align-self: auto; justify-content: center; align-items: center; height: 12%;">
+                <ui:Label text="Label" name="ExhibitDataNameText" class="exhibitData__name" style="width: auto;"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="ExhibitDataDescriptionPanel" class="exhibitData__descriptWrapper" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/UI%20Toolkit/Panels/panel_1.png?fileID=21300000&amp;guid=8efd84f19a193c04c8d53cd67a7b67db&amp;type=3#panel_1&quot;); height: 85%;">
+                <ui:ScrollView name="ExhibitDataDescriptionScrollView" class="exhibitData__scrollView exhibitData__descriptScroll">
+                    <ui:Label text="Label" name="ExhibitDataDescriptionText" class="exhibitData__descript" style="width: 95%;"/>
+                </ui:ScrollView>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
